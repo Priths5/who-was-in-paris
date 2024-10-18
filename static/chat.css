@@ -1,1 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('https://wallpapers.com/images/hd/cool-canada-lake-and-mountains-4h361k5be7m53avr.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
 
+
+h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 36px;
+    color: #00ddfb;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px 0;
+}
+
+
+h1 .icon {
+    font-size: 1em; 
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+div {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 15px;
+    margin: 10px;
+    max-height: calc(100vh - 120px);
+    margin-bottom: 75px; 
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(231, 255, 254); 
+    border-top: 1px solid #a1e6ef;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 96.9%;
+    margin: 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.218);
+}
+
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    width: 17.5%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: linear-gradient(45deg, hsl(262, 95%, 23%), #3e40d2);
+    color: white;
+    border: none;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #3e41db,hsl(262, 95%, 23%));
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
